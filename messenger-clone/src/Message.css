@@ -1,0 +1,28 @@
+.message{
+    padding: 10px;
+    margin:10px;
+    width:fit-content;
+    margin-bottom:10px;
+    background-color: lightblue !important;
+
+}
+.message__user{
+    color:white !important;
+    text-align:left !important;
+    margin-left:auto;
+    background-color: lightcoral !important;
+}
+.message__container{
+    display:flex;
+}
+.message__delete{
+    margin-left:10px;
+    color:white;
+}
+.message__delete:hover{
+    color:red;
+    cursor:pointer;
+    font-weight:bold;
+
+}
+

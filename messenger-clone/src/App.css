@@ -1,0 +1,22 @@
+.app__form{
+    position:fixed;
+    bottom:0;
+    z-index:100;
+    width:100%;
+    display:flex;
+    align-items:center;
+    background:lightgray;
+    height:10vh;
+}
+.app__input{
+    flex:1;
+}
+.app__button{
+    flex:0;
+}
+.app__logo{
+    height:100px;
+    width:100%;
+    object-fit: contain;
+
+}
